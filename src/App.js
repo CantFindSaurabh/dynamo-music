@@ -11,7 +11,7 @@ import BackDrop from './components/UI/BackDrop/BackDrop';
 import Spinner from './components/UI/Spinner/Spinner';
 
 const Player = lazy(() => import("./components/Player/Player"));
-
+ 
 
 function App() {
 
