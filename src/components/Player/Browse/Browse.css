@@ -1,0 +1,43 @@
+.Browse{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;;
+}
+.Search{
+    display: flex;
+    height:30px;
+    width:max-content;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+    border:2px solid black;
+    width:38%;
+    padding:10px;
+    border-radius: 30px;
+    margin-bottom:30px
+}
+.SearchIcon{
+    height:100%;
+}
+.SearchIcon img{
+    height:80%;
+    margin:3px;
+}
+.Search input{
+    outline: none;
+    line-height: 40px;
+    font-size: 20px;
+    height:100%;
+    width:95%;
+    border:0;
+    margin-left: 5px;;
+}
+@media (max-width:550px) {
+    .Browse{
+        margin-bottom: 50px;
+    }
+    .Search{
+        width:70%;
+    }
+}

@@ -1,0 +1,31 @@
+.NavigationList{
+    display:flex;
+}
+.NavigationList a{
+    color:white;
+    text-decoration: none;
+    margin:10px;
+
+}
+.NavigationList button{
+    color:white;
+    margin: 10px;
+    outline: 0;
+    background-color: black;
+    border:0;
+  font-family: 'Karla', sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+.NavigationList .NavigationList-active,
+.NavigationList a:active,
+.NavigationList a:hover,
+.NavigationList button:hover{
+    color:#DF2A4E;
+}
+@media(max-width:550px){
+    .NavigationList{
+        flex-direction: column;
+    }
+}

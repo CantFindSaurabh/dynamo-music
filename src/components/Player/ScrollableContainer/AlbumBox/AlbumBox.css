@@ -1,0 +1,39 @@
+.AlbumBox .SongBox{
+    height:100%;
+}
+.AlbumBox img,
+.SongBox img{
+    height:200px;
+    margin:0 10px;
+    cursor: pointer;
+
+}
+
+.AlbumBox p{
+    width:280px;
+    height:50px;
+}
+.SongBox p{
+    height:50px;
+}
+.AlbumBox-image-wrapper,
+.SongBox-image-wrapper{
+    position: relative;
+}
+
+.AlbumBox .hoverPlayBtn,
+.SongBox .hoverPlayBtn{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+    color:white;
+    font-size: 30px;
+    padding:10px 15px 10px 18px;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: black;
+    cursor: pointer;
+
+}
+

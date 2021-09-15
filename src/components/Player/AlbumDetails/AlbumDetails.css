@@ -1,0 +1,49 @@
+.AlbumDetails{
+    margin-bottom: 100px;
+    text-align: center;
+    padding:10px;
+    display:flex;
+    justify-content: space-around;
+}
+.AlbumDetailsLeft{
+    width:30%;
+    height:100vh;
+}
+.AlbumDetailsLeft p{
+    margin:8px;
+}
+.AlbumDetailsLeft strong{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.AlbumDetails-image{
+    height:300px;
+    border-radius: 10px;
+
+}
+.AlbumDetails-image img{
+    height:100%;
+    border-radius: 10px;
+
+}
+.AlbumDetailsRight{
+    width:60%;
+}
+.SongTable{
+    border:0;
+    border-spacing: 0;
+    width: 100%;
+}
+@media (max-width:550px){
+    .AlbumDetails{
+        flex-direction: column;
+    }
+    .AlbumDetailsLeft{
+        width:100%;
+        height:max-content
+    }
+    .AlbumDetailsRight{
+        width:100%;
+        margin-top: 20px;
+    }
+}

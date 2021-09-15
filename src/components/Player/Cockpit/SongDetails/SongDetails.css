@@ -1,0 +1,32 @@
+.SongDetails{
+    height:60px;
+    color:white;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    text-align: center;
+    flex:1;
+}
+.SongDetailsImage{
+    height:100%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+.SongDetailsImage img{
+    height:80%;
+    border-radius: 50%;;
+}
+.rotate {
+    animation: rotate-keyframes infinite linear 5s;
+   }
+   
+   @keyframes rotate-keyframes {
+    from {
+     transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+
+   }

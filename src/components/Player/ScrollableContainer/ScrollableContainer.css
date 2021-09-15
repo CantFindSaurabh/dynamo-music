@@ -1,0 +1,28 @@
+.ScrollableContainer{
+    width:100%;
+}
+.ScrollableContainer >p{
+    font-size: 25px;
+    margin: 10px;
+    text-align: left;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.ScrollableContainer .Footer{
+        display: flex;
+        overflow-x: auto;
+        align-items: center;
+        height:300px;
+        overflow-y: hidden;
+}
+
+
+.ScrollableContainer .Footer::-webkit-scrollbar {
+    height: 0px;
+  }
+  @media(max-width:550px){
+      .ScrollableContainer>p{
+          font-size: 20px;
+      }
+  }

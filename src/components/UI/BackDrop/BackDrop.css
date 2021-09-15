@@ -1,0 +1,10 @@
+.BackDrop{
+    z-index:200;
+    background-color: black;
+    filter: opacity(0.5);
+    position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}

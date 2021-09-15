@@ -1,0 +1,11 @@
+.SongList{
+    width:100%;
+}
+.SongList:hover {
+    background-color: rgb(235, 235, 235);
+}
+.SongList td{
+    padding:5px 10px;
+    box-sizing: border-box;
+    height:12px;
+}
