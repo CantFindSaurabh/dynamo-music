@@ -9,7 +9,7 @@ Dynamo is a music streaming web app made with ReactJS and [JioSaavn API](https:/
 
 ## Hosted Link
 
-http://dynamo-music.herokuapp.com/
+Link removed [JioSaavn's API structure has changed]
 
 ## Screeshots
 
